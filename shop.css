@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* border: 1px solid red; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 11vh;
+    width: 100vw;
+}
+.lion{
+    width: 5vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 70px;
+}
+ul{
+    display: inline;
+    margin-left: 300px;
+    
+}
+li{
+list-style: none;
+display: inline-block;
+margin: 10px;
+padding: 9px;
+font-family: sans-serif;
+margin-top: 15px;
+font-size: 3vh;
+color: gray;
+}
+li select{
+    border: none;
+    color: gray;
+    font-size: 3vh;
+}
+li:hover{
+    color: black;
+}
+
+.search{
+    color: black;
+    padding: 4px;
+    margin-left: 170px;
+    font-size: 3vh;
+    width: 14vw;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(202, 202, 202);
+
+}
+.cart{
+    color: black;
+    padding: 6px;
+    margin-left: 15px;
+    border: none;   
+    border-radius: 7px;
+    background-color: rgb(202, 202, 202);
+}
+#use{
+    width: 20px;
+    height: 25;
+    margin-left: 25px;
+    border: 1px solid rgb(148, 148, 148);
+    background-color: rgb(148, 148, 148);
+    margin-bottom: -12px;
+    padding: 6px;
+    border-radius: 50px;
+}
+/* Shop Html */
+
+.add{
+
+    margin-left: 18vh;
+    margin-right: 18vh;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.add img{
+    margin-left: 18vh;
+    width: 30vw;
+    height: 50vh;
+}
+.add h1, p {
+    margin-left: 14vh;
+    margin-top: 10px;
+
+}
+.add h1{
+    font-size:2.5vw;
+    font-family: sans-serif;
+}
+.price{
+    display: flex;
+}
+.add .price  h2{
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    width: 8vw;
+    border-radius: 10px;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 2vw;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.add .save{
+    display: block;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    color: green;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.add .price span{
+    margin-top: 55px;
+    margin-left: -90px;
+    font-size: 1.1vw;
+    font-family: sans-serif;
+}
+
+.num{
+    border: none;
+    background-color: rgb(209, 209, 209);
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+.acart{
+    margin-left: 20px;
+    background-color: orange;
+    border:none ;
+    padding: 12px 50px ;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+.acart span{
+    width: 2vw;
+    height: 100vh;
+}
+.scroll{
+    display: flex;
+    overflow: auto;
+}
+.scroll img{
+    width: 20vw;
+    height: 27vh;
+    margin-top: 30px;
+
+}

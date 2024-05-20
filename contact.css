@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-family: sans-serif;
+    display: flex;
+}
+.Checkout{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+}
+.Checkout h3{
+    color: gray;
+    margin-bottom: 20px ;
+}
+.Checkout h2{
+    margin-bottom: 17px ;
+}
+.Checkout .name{
+    margin-bottom: 5px;
+
+}
+.detail{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 7px 7px;
+    width: 27vw;
+}
+
+.Checkout input{
+    width: 23vw;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(241, 239, 239);
+}
+
+.Checkout span{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 3px;
+}
+.Checkout .detail .dot{
+    font-weight: 1000;
+    padding: 10px 20px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+.expiry-cvc, .country-zip{
+    display: flex;
+    gap: 40px;
+}
+.expiry-cvc div, .country-zip div{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+}
+.expiry-cvc input , .country-zip input {
+    width: 100%;
+    
+}
+
+.order{
+    background-color: rgb(233, 232, 232);
+    width: 60%;
+}
+.order h1{
+    margin-left: 220px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+.price{
+    font-family: sans-serif;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    margin-left: 150px;
+
+
+}
+.price h3{
+    font-size: 1vw;
+    margin-bottom: 5px;
+}
+.price input{
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.price .apply{
+    padding: 12px;
+    border: 1px solid rgb(52, 133, 255);
+    border-radius: 10px;
+    background-color: rgb(52, 133, 255);
+    color: white;
+    margin: 2px;
+}
+.price h2{
+    display: inline;
+    font-size: 1.3vw;
+    color: gray;
+
+}
+.price .total{
+    color: black;
+}
+ .pay {
+    display: block; 
+    height: 8vh;
+    width: 30vw;
+    margin-top: 35px;
+    border-radius: 12px;
+    border: 1px solid orange;
+    background-color: orange;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-left: 150px;
+    
+
+}
+.pay a{
+    color: white;
+}
+.safe{
+    padding: 15px;
+     padding-left: 220px;
+     margin-top: 10px;
+
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 3.7vh;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+}
